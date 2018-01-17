@@ -1,0 +1,16 @@
+html, body {
+   /* Fill whole page */
+  height: 100%;
+  width: 100%;
+  /* Remove spaces */
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  height: inherit;
+  width: inherit;
+  background-color: black;
+  /* Prevent y-overflow */
+  position: absolute;
+}
